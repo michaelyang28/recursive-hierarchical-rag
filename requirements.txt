@@ -1,0 +1,17 @@
+# Core dependencies
+openai>=1.12.0
+aiolimiter>=1.1.0
+python-dotenv>=1.0.0
+datasets>=2.14.0
+numpy>=1.24.0
+sentence-transformers>=2.2.0
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+faiss-cpu>=1.7.4  # For fast similarity search
+
+# Optional dependencies
+torch>=2.0.0
+transformers>=4.30.0
+plotly>=5.14.0  # For interactive visualizations
+pytrec_eval>=0.5  # For official TREC/BEIR metrics (recommended for accurate nDCG@k, MAP@k)
+adalflow  # Optional prompt optimization workflow for recursive RLM
